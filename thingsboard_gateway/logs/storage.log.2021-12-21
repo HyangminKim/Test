@@ -1,0 +1,5 @@
+""2021-12-21 14:42:55" - |INFO| - [event_storage_reader.py] - event_storage_reader - read_state_file - 150 - FileStorage_reader -- Initializing from state file: [./data/data_1640064333660.txt:3]"
+""2021-12-21 14:46:52" - |INFO| - [event_storage_reader.py] - event_storage_reader - read_state_file - 150 - FileStorage_reader -- Initializing from state file: [./data/data_1640064333660.txt:3]"
+""2021-12-21 15:03:04" - |INFO| - [event_storage_reader.py] - event_storage_reader - read_state_file - 150 - FileStorage_reader -- Initializing from state file: [./data/data_1640064333660.txt:3]"
+""2021-12-21 15:28:35" - |INFO| - [event_storage_reader.py] - event_storage_reader - read_state_file - 150 - FileStorage_reader -- Initializing from state file: [./data/data_1640068115454.txt:0]"
+""2021-12-21 15:31:11" - |INFO| - [event_storage_reader.py] - event_storage_reader - read_state_file - 150 - FileStorage_reader -- Initializing from state file: [./data/data_1640068115454.txt:2]"

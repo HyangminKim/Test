@@ -1,0 +1,15 @@
+""2022-01-03 13:07:59" - |WARNING| - [backward_compability_adapter.py] - backward_compability_adapter - convert - 36 - You are using old configuration structure for Modbus connector. It will be DEPRECATED in the future version! New config file "modbus_new.json" was generated in config/ folder. Please, use it."
+""2022-01-03 13:07:59" - |ERROR| - [modbus_connector.py] - modbus_connector - __function_to_device - 419 - Exception Response(131, 3, IllegalFunction)"
+NoneType: None
+""2022-01-03 13:07:59" - |ERROR| - [modbus_connector.py] - modbus_connector - __function_to_device - 419 - Exception Response(131, 3, IllegalFunction)"
+NoneType: None
+""2022-01-03 13:16:45" - |ERROR| - [modbus_connector.py] - modbus_connector - __function_to_device - 419 - Exception Response(131, 3, IllegalFunction)"
+NoneType: None
+""2022-01-03 13:16:45" - |ERROR| - [modbus_connector.py] - modbus_connector - __function_to_device - 419 - Exception Response(131, 3, IllegalFunction)"
+NoneType: None
+""2022-01-03 13:18:03" - |ERROR| - [modbus_connector.py] - modbus_connector - __function_to_device - 419 - Exception Response(132, 4, IllegalAddress)"
+NoneType: None
+""2022-01-03 13:18:15" - |ERROR| - [modbus_connector.py] - modbus_connector - __function_to_device - 419 - Exception Response(132, 4, IllegalAddress)"
+NoneType: None
+""2022-01-03 13:18:20" - |ERROR| - [modbus_connector.py] - modbus_connector - __function_to_device - 419 - Exception Response(132, 4, IllegalAddress)"
+NoneType: None

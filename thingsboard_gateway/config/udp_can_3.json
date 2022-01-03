@@ -1,0 +1,6190 @@
+{
+  "master": {
+    "slaves": [
+      {
+        "host": "169.254.202.175",
+        "port": 7070,
+        "type": "udp",
+        "method": "socket",
+        "timeout": 35,
+        "byteOrder": "BIG",
+        "retries": true,
+        "retryOnEmpty": true,
+        "retryOnInvalid": true,
+        "pollPeriod": 5000,
+        "unitId": 1,
+        "deviceName": "test_hmkim_device",
+        "attributesPollPeriod": 5000,
+        "timeseriesPollPeriod": 5000,
+        "sendDataOnlyOnChange": true,
+        "timeseries":[
+        {
+         "key": "Node1_1",
+         "nodeId": "1",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_1",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_2",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_3",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_2",
+         "nodeId": "2",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_4",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_5",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_6",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_3",
+         "nodeId": "3",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_7",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_8",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_9",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_4",
+         "nodeId": "4",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_10",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_11",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_12",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_5",
+         "nodeId": "5",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_13",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_14",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_15",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_6",
+         "nodeId": "6",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_16",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_17",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_18",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_7",
+         "nodeId": "7",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_19",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_20",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_21",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_8",
+         "nodeId": "8",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_22",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_23",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_24",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_9",
+         "nodeId": "9",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_25",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_26",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_27",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_10",
+         "nodeId": "10",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_28",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_29",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_30",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_11",
+         "nodeId": "11",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_31",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_32",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_33",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_12",
+         "nodeId": "12",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_34",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_35",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_36",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_13",
+         "nodeId": "13",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_37",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_38",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_39",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_14",
+         "nodeId": "14",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_40",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_41",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_42",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_15",
+         "nodeId": "15",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_43",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_44",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_45",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_16",
+         "nodeId": "16",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_46",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_47",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_48",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_17",
+         "nodeId": "17",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_49",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_50",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_51",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_18",
+         "nodeId": "18",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_52",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_53",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_54",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_19",
+         "nodeId": "19",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_55",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_56",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_57",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_20",
+         "nodeId": "20",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_58",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_59",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_60",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_21",
+         "nodeId": "21",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_61",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_62",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_63",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_22",
+         "nodeId": "22",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_64",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_65",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_66",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_23",
+         "nodeId": "23",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_67",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_68",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_69",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_24",
+         "nodeId": "24",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_70",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_71",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_72",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_25",
+         "nodeId": "25",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_73",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_74",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_75",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_26",
+         "nodeId": "26",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_76",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_77",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_78",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_27",
+         "nodeId": "27",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_79",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_80",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_81",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_28",
+         "nodeId": "28",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_82",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_83",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_84",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_29",
+         "nodeId": "29",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_85",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_86",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_87",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_30",
+         "nodeId": "30",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_88",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_89",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_90",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_31",
+         "nodeId": "31",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_91",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_92",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_93",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_32",
+         "nodeId": "32",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_94",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_95",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_96",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_33",
+         "nodeId": "33",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_97",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_98",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_99",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_34",
+         "nodeId": "34",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_100",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_101",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_102",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_35",
+         "nodeId": "35",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_103",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_104",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_105",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_36",
+         "nodeId": "36",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_106",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_107",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_108",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_37",
+         "nodeId": "37",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_109",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_110",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_111",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_38",
+         "nodeId": "38",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_112",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_113",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_114",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_39",
+         "nodeId": "39",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_115",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_116",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_117",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_40",
+         "nodeId": "40",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_118",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_119",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_120",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_41",
+         "nodeId": "41",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_121",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_122",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_123",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_42",
+         "nodeId": "42",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_124",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_125",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_126",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_43",
+         "nodeId": "43",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_127",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_128",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_129",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_44",
+         "nodeId": "44",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_130",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_131",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_132",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_45",
+         "nodeId": "45",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_133",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_134",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_135",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_46",
+         "nodeId": "46",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_136",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_137",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_138",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_47",
+         "nodeId": "47",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_139",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_140",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_141",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_48",
+         "nodeId": "48",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_142",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_143",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_144",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_49",
+         "nodeId": "49",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_145",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_146",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_147",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_50",
+         "nodeId": "50",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_148",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_149",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_150",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_51",
+         "nodeId": "51",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_151",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_152",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_153",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_52",
+         "nodeId": "52",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_154",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_155",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_156",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_53",
+         "nodeId": "53",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_157",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_158",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_159",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_54",
+         "nodeId": "54",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_160",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_161",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_162",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_55",
+         "nodeId": "55",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_163",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_164",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_165",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_56",
+         "nodeId": "56",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_166",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_167",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_168",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_57",
+         "nodeId": "57",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_169",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_170",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_171",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_58",
+         "nodeId": "58",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_172",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_173",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_174",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_59",
+         "nodeId": "59",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_175",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_176",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_177",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_60",
+         "nodeId": "60",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_178",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_179",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_180",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_61",
+         "nodeId": "61",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_181",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_182",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_183",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_62",
+         "nodeId": "62",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_184",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_185",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_186",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_63",
+         "nodeId": "63",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_187",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_188",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_189",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_64",
+         "nodeId": "64",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_190",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_191",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_192",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_65",
+         "nodeId": "65",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_193",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_194",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_195",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_66",
+         "nodeId": "66",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_196",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_197",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_198",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_67",
+         "nodeId": "67",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_199",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_200",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_201",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_68",
+         "nodeId": "68",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_CVOLT_202",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_203",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_CVOLT_204",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_69",
+         "nodeId": "69",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_MOD_1_T_1",
+           "start": "1",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R101_MOD_1_T_2",
+           "start": "2",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R101_MOD_1_T_3",
+           "start": "3",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R101_MOD_1_T_4",
+           "start": "4",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           }
+
+         ]
+        },
+        {
+         "key": "Node1_70",
+         "nodeId": "70",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_MOD_2_T_1",
+           "start": "1",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R101_MOD_2_T_2",
+           "start": "2",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R101_MOD_2_T_3",
+           "start": "3",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R101_MOD_2_T_4",
+           "start": "4",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           }
+
+         ]
+        },
+        {
+         "key": "Node1_71",
+         "nodeId": "71",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_MOD_3_T_1",
+           "start": "1",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R101_MOD_3_T_2",
+           "start": "2",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R101_MOD_3_T_3",
+           "start": "3",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R101_MOD_3_T_4",
+           "start": "4",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           }
+
+         ]
+        },
+        {
+         "key": "Node1_72",
+         "nodeId": "72",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_MOD_4_T_1",
+           "start": "1",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R101_MOD_4_T_2",
+           "start": "2",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R101_MOD_4_T_3",
+           "start": "3",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R101_MOD_4_T_4",
+           "start": "4",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           }
+
+         ]
+        },
+        {
+         "key": "Node1_73",
+         "nodeId": "73",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_MOD_5_T_1",
+           "start": "1",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R101_MOD_5_T_2",
+           "start": "2",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R101_MOD_5_T_3",
+           "start": "3",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R101_MOD_5_T_4",
+           "start": "4",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           }
+
+         ]
+        },
+        {
+         "key": "Node1_74",
+         "nodeId": "74",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_MOD_6_T_1",
+           "start": "1",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R101_MOD_6_T_2",
+           "start": "2",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R101_MOD_6_T_3",
+           "start": "3",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R101_MOD_6_T_4",
+           "start": "4",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           }
+
+         ]
+        },
+        {
+         "key": "Node1_75",
+         "nodeId": "75",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_MVOL_1",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/100"
+           },
+           {
+           "tag" : "S001B1R101_MVOL_2",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/100"
+           },
+           {
+           "tag" : "S001B1R101_MVOL_3",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/100"
+           }
+         ]
+        },
+        {
+         "key": "Node1_76",
+         "nodeId": "76",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_MVOL_4",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/100"
+           },
+           {
+           "tag" : "S001B1R101_MVOL_5",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/100"
+           },
+           {
+           "tag" : "S001B1R101_MVOL_6",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/100"
+           }
+         ]
+        },
+        {
+         "key": "Node1_77",
+         "nodeId": "77",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_MVOL_7",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/100"
+           },
+           {
+           "tag" : "S001B1R101_MVOL_8",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/100"
+           },
+           {
+           "tag" : "S001B1R101_MVOL_9",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/100"
+           }
+         ]
+        },
+        {
+         "key": "Node1_78",
+         "nodeId": "78",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_MVOL_10",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/100"
+           },
+           {
+           "tag" : "S001B1R101_MVOL_11",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/100"
+           },
+           {
+           "tag" : "S001B1R101_MVOL_12",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/100"
+           }
+         ]
+        },
+        {
+         "key": "Node1_81",
+         "nodeId": "81",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_RVOLT",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/10"
+           }
+         ]
+        },
+        {
+         "key": "Node1_82",
+         "nodeId": "82",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_RMAX",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_RMIN",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R101_RAVGV",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node1_83",
+         "nodeId": "83",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_RMAXT",
+           "start": "1",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R101_RMINT",
+           "start": "2",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R101_RAVGT",
+           "start": "3",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R101_RXTMI",
+           "start": "4",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int"
+           },
+           {
+           "tag" : "S001B1R101_RXTCI",
+           "start": "5",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int"
+           },
+           {
+           "tag" : "S001B1R101_RNTMI",
+           "start": "6",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int"
+           },
+           {
+           "tag" : "S001B1R101_RNTCI",
+           "start": "7",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int"
+           }
+         ]
+        },
+        {
+         "key": "Node1_84",
+         "nodeId": "84",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_RXVCI",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int"
+           },
+           {
+           "tag" : "S001B1R101_RMVCI",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int"
+           }
+         ]
+        },
+        {
+         "key": "Node1_85",
+         "nodeId": "85",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_STATUS_GFDCTRL",
+           "start": "8",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R101_STATUS_GFDSTAT",
+           "start": "9",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R101_STATUS_ENABLESTRING",
+           "start": "10",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R101_STATUS_CONNECTSTRING",
+           "start": "11",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R101_STATUS_RESETALARM",
+           "start": "12",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R101_STATUS_FANSTAT",
+           "start": "13",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R101_STATUS_RACKBALSTAT",
+           "start": "14",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           }
+         ]
+        },
+        {
+         "key": "Node1_86",
+         "nodeId": "86",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_RHWV1",
+           "start": "1",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int"
+           },
+           {
+           "tag" : "S001B1R101_RHWV2",
+           "start": "2",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int"
+           },
+           {
+           "tag" : "S001B1R101_RSWV1",
+           "start": "3",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int"
+           },
+           {
+           "tag" : "S001B1R101_RSWV2",
+           "start": "4",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int"
+           }
+         ]
+        },
+        {
+         "key": "Node1_87",
+         "nodeId": "87",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_ALERT_COMMUNICATION_ERROR",
+           "start": "8",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R101_ALERT_OVER_TEMP_ALARM",
+           "start": "9",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R101_ALERT_OVER_TEMP_WARNING",
+           "start": "10",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R101_ALERT_UNDER_TEMP_ALARM",
+           "start": "11",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R101_ALERT_UNDER_TEMP_WARNING",
+           "start": "12",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R101_ALERT_OVER_CHARGE_CURRENT_ALARM",
+           "start": "13",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R101_ALERT_OVER_CHARGE_CURRENT_WARNING",
+           "start": "14",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R101_ALERT_OVER_DISCHARGE_CURRENT_ALARM",
+           "start": "15",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R101_ALERT_OVER_DISCHARGE_CURRENT_WARNING",
+           "start": "16",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R101_ALERT_OVER_VOLT_ALARM",
+           "start": "17",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R101_ALERT_OVER_VOLT_WARNING",
+           "start": "18",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R101_ALERT_UNDER_VOLT_ALARM",
+           "start": "19",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R101_ALERT_UNDER_VOLT_WARNING",
+           "start": "20",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R101_ALERT_UNDER_SOC_ALARM",
+           "start": "21",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R101_ALERT_UNDER_SOC_WARNING",
+           "start": "22",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R101_ALERT_OVER_SOC_ALARM",
+           "start": "23",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R101_ALERT_OVER_SOC_WARNING",
+           "start": "24",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R101_ALERT_VOLTAGE_IMBALANCE_WARNING",
+           "start": "25",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R101_ALERT_TEMPERATURE_IMBALANCE_ALARM",
+           "start": "26",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R101_ALERT_TEMPERATURE_IMBALANCE_WARNING",
+           "start": "27",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R101_ALERT_CONTACTOR_ERROR",
+           "start": "28",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R101_ALERT_FAN_ERROR",
+           "start": "29",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R101_ALERT_GROUND_FAULT",
+           "start": "30",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R101_ALERT_CELL_OVER_VOLT_ALARM",
+           "start": "32",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R101_ALERT_CELL_OVER_VOLT_WARNING",
+           "start": "33",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R101_ALERT_CELL_UNDER_VOLT_ALARM",
+           "start": "34",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R101_ALERT_CELL_UNDER_VOLT_WARNING",
+           "start": "35",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           }
+         ]
+        },
+        {
+         "key": "Node1_88",
+         "nodeId": "88",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_MOD_1_CB",
+           "start": "8",
+           "length": "46",
+           "byteorder": "big",
+           "type": "bit"
+           }
+         ]
+        },
+        {
+         "key": "Node1_89",
+         "nodeId": "89",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_MOD_2_CB",
+           "start": "8",
+           "length": "46",
+           "byteorder": "big",
+           "type": "bit"
+           }
+         ]
+        },
+        {
+         "key": "Node1_90",
+         "nodeId": "90",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_MOD_3_CB",
+           "start": "8",
+           "length": "46",
+           "byteorder": "big",
+           "type": "bit"
+           }
+         ]
+        },
+        {
+         "key": "Node1_91",
+         "nodeId": "91",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_MOD_4_CB",
+           "start": "8",
+           "length": "46",
+           "byteorder": "big",
+           "type": "bit"
+           }
+         ]
+        },
+        {
+         "key": "Node1_92",
+         "nodeId": "92",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_MOD_5_CB",
+           "start": "8",
+           "length": "46",
+           "byteorder": "big",
+           "type": "bit"
+           }
+         ]
+        },
+        {
+         "key": "Node1_93",
+         "nodeId": "93",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_MOD_6_CB",
+           "start": "8",
+           "length": "46",
+           "byteorder": "big",
+           "type": "bit"
+           }
+         ]
+        },
+        {
+         "key": "Node1_94",
+         "nodeId": "94",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_MOD_1_PCBT_1",
+           "start": "1",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R101_MOD_1_PCBT_2",
+           "start": "2",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R101_MOD_2_PCBT_1",
+           "start": "3",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R101_MOD_2_PCBT_2",
+           "start": "4",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R101_MOD_3_PCBT_1",
+           "start": "5",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R101_MOD_3_PCBT_2",
+           "start": "6",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           }
+         ]
+        },
+        {
+         "key": "Node1_95",
+         "nodeId": "95",
+         "rackId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R101_MOD_4_PCBT_1",
+           "start": "1",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R101_MOD_4_PCBT_2",
+           "start": "2",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R101_MOD_5_PCBT_1",
+           "start": "3",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R101_MOD_5_PCBT_2",
+           "start": "4",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R101_MOD_6_PCBT_1",
+           "start": "5",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R101_MOD_6_PCBT_2",
+           "start": "6",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           }
+         ]
+        },
+
+        {
+         "key": "Node2_1",
+         "nodeId": "1",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_1",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_2",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_3",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_2",
+         "nodeId": "2",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_4",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_5",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_6",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_3",
+         "nodeId": "3",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_7",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_8",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_9",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_4",
+         "nodeId": "4",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_10",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_11",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_12",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_5",
+         "nodeId": "5",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_13",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_14",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_15",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_6",
+         "nodeId": "6",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_16",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_17",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_18",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_7",
+         "nodeId": "7",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_19",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_20",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_21",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_8",
+         "nodeId": "8",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_22",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_23",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_24",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_9",
+         "nodeId": "9",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_25",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_26",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_27",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_10",
+         "nodeId": "10",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_28",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_29",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_30",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_11",
+         "nodeId": "11",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_31",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_32",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_33",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_12",
+         "nodeId": "12",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_34",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_35",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_36",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_13",
+         "nodeId": "13",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_37",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_38",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_39",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_14",
+         "nodeId": "14",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_40",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_41",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_42",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_15",
+         "nodeId": "15",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_43",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_44",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_45",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_16",
+         "nodeId": "16",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_46",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_47",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_48",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_17",
+         "nodeId": "17",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_49",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_50",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_51",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_18",
+         "nodeId": "18",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_52",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_53",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_54",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_19",
+         "nodeId": "19",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_55",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_56",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_57",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_20",
+         "nodeId": "20",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_58",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_59",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_60",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_21",
+         "nodeId": "21",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_61",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_62",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_63",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_22",
+         "nodeId": "22",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_64",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_65",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_66",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_23",
+         "nodeId": "23",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_67",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_68",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_69",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_24",
+         "nodeId": "24",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_70",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_71",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_72",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_25",
+         "nodeId": "25",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_73",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_74",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_75",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_26",
+         "nodeId": "26",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_76",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_77",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_78",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_27",
+         "nodeId": "27",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_79",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_80",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_81",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_28",
+         "nodeId": "28",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_82",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_83",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_84",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_29",
+         "nodeId": "29",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_85",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_86",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_87",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_30",
+         "nodeId": "30",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_88",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_89",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_90",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_31",
+         "nodeId": "31",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_91",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_92",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_93",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_32",
+         "nodeId": "32",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_94",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_95",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_96",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_33",
+         "nodeId": "33",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_97",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_98",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_99",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_34",
+         "nodeId": "34",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_100",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_101",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_102",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_35",
+         "nodeId": "35",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_103",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_104",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_105",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_36",
+         "nodeId": "36",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_106",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_107",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_108",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_37",
+         "nodeId": "37",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_109",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_110",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_111",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_38",
+         "nodeId": "38",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_112",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_113",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_114",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_39",
+         "nodeId": "39",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_115",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_116",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_117",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_40",
+         "nodeId": "40",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_118",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_119",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_120",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_41",
+         "nodeId": "41",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_121",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_122",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_123",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_42",
+         "nodeId": "42",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_124",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_125",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_126",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_43",
+         "nodeId": "43",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_127",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_128",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_129",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_44",
+         "nodeId": "44",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_130",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_131",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_132",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_45",
+         "nodeId": "45",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_133",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_134",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_135",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_46",
+         "nodeId": "46",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_136",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_137",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_138",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_47",
+         "nodeId": "47",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_139",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_140",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_141",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_48",
+         "nodeId": "48",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_142",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_143",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_144",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_49",
+         "nodeId": "49",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_145",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_146",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_147",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_50",
+         "nodeId": "50",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_148",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_149",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_150",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_51",
+         "nodeId": "51",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_151",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_152",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_153",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_52",
+         "nodeId": "52",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_154",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_155",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_156",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_53",
+         "nodeId": "53",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_157",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_158",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_159",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_54",
+         "nodeId": "54",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_160",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_161",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_162",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_55",
+         "nodeId": "55",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_163",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_164",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_165",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_56",
+         "nodeId": "56",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_166",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_167",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_168",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_57",
+         "nodeId": "57",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_169",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_170",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_171",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_58",
+         "nodeId": "58",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_172",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_173",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_174",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_59",
+         "nodeId": "59",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_175",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_176",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_177",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_60",
+         "nodeId": "60",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_178",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_179",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_180",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_61",
+         "nodeId": "61",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_181",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_182",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_183",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_62",
+         "nodeId": "62",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_184",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_185",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_186",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_63",
+         "nodeId": "63",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_187",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_188",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_189",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_64",
+         "nodeId": "64",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_190",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_191",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_192",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_65",
+         "nodeId": "65",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_193",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_194",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_195",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_66",
+         "nodeId": "66",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_196",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_197",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_198",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_67",
+         "nodeId": "67",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_199",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_200",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_201",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_68",
+         "nodeId": "68",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_202",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_203",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_204",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_69",
+         "nodeId": "69",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_MOD_1_T_1",
+           "start": "1",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R102_MOD_1_T_2",
+           "start": "2",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R102_MOD_1_T_3",
+           "start": "3",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R102_MOD_1_T_4",
+           "start": "4",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           }
+
+         ]
+        },
+        {
+         "key": "Node2_70",
+         "nodeId": "70",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_MOD_2_T_1",
+           "start": "1",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R102_MOD_2_T_2",
+           "start": "2",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R102_MOD_2_T_3",
+           "start": "3",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R102_MOD_2_T_4",
+           "start": "4",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           }
+
+         ]
+        },
+        {
+         "key": "Node2_71",
+         "nodeId": "71",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_MOD_3_T_1",
+           "start": "1",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R102_MOD_3_T_2",
+           "start": "2",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R102_MOD_3_T_3",
+           "start": "3",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R102_MOD_3_T_4",
+           "start": "4",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           }
+
+         ]
+        },
+        {
+         "key": "Node2_72",
+         "nodeId": "72",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_MOD_4_T_1",
+           "start": "1",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R102_MOD_4_T_2",
+           "start": "2",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R102_MOD_4_T_3",
+           "start": "3",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R102_MOD_4_T_4",
+           "start": "4",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           }
+
+         ]
+        },
+        {
+         "key": "Node2_73",
+         "nodeId": "73",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_MOD_5_T_1",
+           "start": "1",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R102_MOD_5_T_2",
+           "start": "2",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R102_MOD_5_T_3",
+           "start": "3",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R102_MOD_5_T_4",
+           "start": "4",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           }
+
+         ]
+        },
+        {
+         "key": "Node2_74",
+         "nodeId": "74",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_MOD_6_T_1",
+           "start": "1",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R102_MOD_6_T_2",
+           "start": "2",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R102_MOD_6_T_3",
+           "start": "3",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R102_MOD_6_T_4",
+           "start": "4",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           }
+
+         ]
+        },
+        {
+         "key": "Node2_75",
+         "nodeId": "75",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_MVOL_1",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/100"
+           },
+           {
+           "tag" : "S001B1R102_MVOL_2",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/100"
+           },
+           {
+           "tag" : "S001B1R102_MVOL_3",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/100"
+           }
+         ]
+        },
+        {
+         "key": "Node2_76",
+         "nodeId": "76",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_MVOL_4",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/100"
+           },
+           {
+           "tag" : "S001B1R102_MVOL_5",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/100"
+           },
+           {
+           "tag" : "S001B1R102_MVOL_6",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/100"
+           }
+         ]
+        },
+        {
+         "key": "Node2_77",
+         "nodeId": "77",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_MVOL_7",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/100"
+           },
+           {
+           "tag" : "S001B1R102_MVOL_8",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/100"
+           },
+           {
+           "tag" : "S001B1R102_MVOL_9",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/100"
+           }
+         ]
+        },
+        {
+         "key": "Node2_78",
+         "nodeId": "78",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_MVOL_10",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/100"
+           },
+           {
+           "tag" : "S001B1R102_MVOL_11",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/100"
+           },
+           {
+           "tag" : "S001B1R102_MVOL_12",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/100"
+           }
+         ]
+        },
+        {
+         "key": "Node2_81",
+         "nodeId": "81",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_RVOLT",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/10"
+           }
+         ]
+        },
+        {
+         "key": "Node2_82",
+         "nodeId": "82",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_RMAX",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_RMIN",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           },
+           {
+           "tag" : "S001B1R102_RAVGV",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/1000"
+           }
+         ]
+        },
+        {
+         "key": "Node2_83",
+         "nodeId": "83",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_RMAXT",
+           "start": "1",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R102_RMINT",
+           "start": "2",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R102_RAVGT",
+           "start": "3",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R102_RXTMI",
+           "start": "4",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int"
+           },
+           {
+           "tag" : "S001B1R102_RXTCI",
+           "start": "5",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int"
+           },
+           {
+           "tag" : "S001B1R102_RNTMI",
+           "start": "6",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int"
+           },
+           {
+           "tag" : "S001B1R102_RNTCI",
+           "start": "7",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int"
+           }
+         ]
+        },
+        {
+         "key": "Node2_84",
+         "nodeId": "84",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_RXVCI",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int"
+           },
+           {
+           "tag" : "S001B1R102_RMVCI",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int"
+           }
+         ]
+        },
+        {
+         "key": "Node2_85",
+         "nodeId": "85",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_STATUS_GFDCTRL",
+           "start": "8",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R102_STATUS_GFDSTAT",
+           "start": "9",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R102_STATUS_ENABLESTRING",
+           "start": "10",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R102_STATUS_CONNECTSTRING",
+           "start": "11",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R102_STATUS_RESETALARM",
+           "start": "12",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R102_STATUS_FANSTAT",
+           "start": "13",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R102_STATUS_RACKBALSTAT",
+           "start": "14",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           }
+         ]
+        },
+        {
+         "key": "Node2_86",
+         "nodeId": "86",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_RHWV1",
+           "start": "1",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int"
+           },
+           {
+           "tag" : "S001B1R102_RHWV2",
+           "start": "2",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int"
+           },
+           {
+           "tag" : "S001B1R102_RSWV1",
+           "start": "3",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int"
+           },
+           {
+           "tag" : "S001B1R102_RSWV2",
+           "start": "4",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int"
+           }
+         ]
+        },
+        {
+         "key": "Node2_87",
+         "nodeId": "87",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_ALERT_COMMUNICATION_ERROR",
+           "start": "8",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R102_ALERT_OVER_TEMP_ALARM",
+           "start": "9",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R102_ALERT_OVER_TEMP_WARNING",
+           "start": "10",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R102_ALERT_UNDER_TEMP_ALARM",
+           "start": "11",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R102_ALERT_UNDER_TEMP_WARNING",
+           "start": "12",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R102_ALERT_OVER_CHARGE_CURRENT_ALARM",
+           "start": "13",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R102_ALERT_OVER_CHARGE_CURRENT_WARNING",
+           "start": "14",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R102_ALERT_OVER_DISCHARGE_CURRENT_ALARM",
+           "start": "15",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R102_ALERT_OVER_DISCHARGE_CURRENT_WARNING",
+           "start": "16",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R102_ALERT_OVER_VOLT_ALARM",
+           "start": "17",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R102_ALERT_OVER_VOLT_WARNING",
+           "start": "18",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R102_ALERT_UNDER_VOLT_ALARM",
+           "start": "19",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R102_ALERT_UNDER_VOLT_WARNING",
+           "start": "20",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R102_ALERT_UNDER_SOC_ALARM",
+           "start": "21",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R102_ALERT_UNDER_SOC_WARNING",
+           "start": "22",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R102_ALERT_OVER_SOC_ALARM",
+           "start": "23",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R102_ALERT_OVER_SOC_WARNING",
+           "start": "24",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R102_ALERT_VOLTAGE_IMBALANCE_WARNING",
+           "start": "25",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R102_ALERT_TEMPERATURE_IMBALANCE_ALARM",
+           "start": "26",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R102_ALERT_TEMPERATURE_IMBALANCE_WARNING",
+           "start": "27",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R102_ALERT_CONTACTOR_ERROR",
+           "start": "28",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R102_ALERT_FAN_ERROR",
+           "start": "29",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R102_ALERT_GROUND_FAULT",
+           "start": "30",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R102_ALERT_CELL_OVER_VOLT_ALARM",
+           "start": "32",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R102_ALERT_CELL_OVER_VOLT_WARNING",
+           "start": "33",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R102_ALERT_CELL_UNDER_VOLT_ALARM",
+           "start": "34",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           },
+           {
+           "tag" : "S001B1R102_ALERT_CELL_UNDER_VOLT_WARNING",
+           "start": "35",
+           "length": "1",
+           "byteorder": "big",
+           "type": "bit"
+           }
+         ]
+        },
+        {
+         "key": "Node2_88",
+         "nodeId": "88",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_MOD_1_CB",
+           "start": "8",
+           "length": "46",
+           "byteorder": "big",
+           "type": "bit"
+           }
+         ]
+        },
+        {
+         "key": "Node2_89",
+         "nodeId": "89",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_MOD_2_CB",
+           "start": "8",
+           "length": "46",
+           "byteorder": "big",
+           "type": "bit"
+           }
+         ]
+        },
+        {
+         "key": "Node2_90",
+         "nodeId": "90",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_MOD_3_CB",
+           "start": "8",
+           "length": "46",
+           "byteorder": "big",
+           "type": "bit"
+           }
+         ]
+        },
+        {
+         "key": "Node2_91",
+         "nodeId": "91",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_MOD_4_CB",
+           "start": "8",
+           "length": "46",
+           "byteorder": "big",
+           "type": "bit"
+           }
+         ]
+        },
+        {
+         "key": "Node2_92",
+         "nodeId": "92",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_MOD_5_CB",
+           "start": "8",
+           "length": "46",
+           "byteorder": "big",
+           "type": "bit"
+           }
+         ]
+        },
+        {
+         "key": "Node2_93",
+         "nodeId": "93",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_MOD_6_CB",
+           "start": "8",
+           "length": "46",
+           "byteorder": "big",
+           "type": "bit"
+           }
+         ]
+        },
+        {
+         "key": "Node2_94",
+         "nodeId": "94",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_MOD_1_PCBT_1",
+           "start": "1",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R102_MOD_1_PCBT_2",
+           "start": "2",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R102_MOD_2_PCBT_1",
+           "start": "3",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R102_MOD_2_PCBT_2",
+           "start": "4",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R102_MOD_3_PCBT_1",
+           "start": "5",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R102_MOD_3_PCBT_2",
+           "start": "6",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           }
+         ]
+        },
+        {
+         "key": "Node2_95",
+         "nodeId": "95",
+         "rackId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_MOD_4_PCBT_1",
+           "start": "1",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R102_MOD_4_PCBT_2",
+           "start": "2",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R102_MOD_5_PCBT_1",
+           "start": "3",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R102_MOD_5_PCBT_2",
+           "start": "4",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R102_MOD_6_PCBT_1",
+           "start": "5",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           },
+           {
+           "tag" : "S001B1R102_MOD_6_PCBT_2",
+           "start": "6",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int",
+           "expression": "value/2"
+           }
+         ]
+        }
+
+
+
+
+
+	]
+      }
+    ]
+  }
+}
+

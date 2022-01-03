@@ -1,0 +1,4 @@
+""2021-12-09 13:17:17" - |ERROR| - [bytes_modbus_uplink_converter.py] - bytes_modbus_uplink_converter - convert - 83 - Modbus Error: [Input/Output] Unable to decode request"
+NoneType: None
+""2021-12-09 13:17:44" - |ERROR| - [bytes_modbus_uplink_converter.py] - bytes_modbus_uplink_converter - convert - 83 - Modbus Error: [Input/Output] Unable to decode request"
+NoneType: None

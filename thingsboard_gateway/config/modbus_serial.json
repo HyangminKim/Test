@@ -1,0 +1,43 @@
+{
+  "master": {
+    "slaves": [
+      {
+        "type": "serial",
+        "method": "rtu",
+        "port": "/dev/ttyTHS0",
+        "baudrate": 9600,     
+        "timeout": 35,
+        "byteOrder": "BIG",
+        "retries": true,
+        "retryOnEmpty": true,
+        "retryOnInvalid": true,
+        "pollPeriod": 5000,
+        "unitId": 2,
+        "deviceName": "test_hmkim_device",
+        "attributesPollPeriod": 5000,
+        "timeseriesPollPeriod": 5000,
+        "sendDataOnlyOnChange": true,
+        "timeseries":[
+          {
+            "byteOrder": "BIG",
+            "tag": "Temperature",
+            "type": "long",
+            "functionCode": 4,
+            "registerCount": 1,
+            "address": 0
+          },
+          {
+            "byteOrder": "BIG",
+            "tag": "Huminity",
+            "type": "long",
+            "functionCode": 4,
+            "registerCount": 1,
+            "address": 1
+          }
+       
+	]
+      }
+    ]
+  }
+}
+

@@ -1,0 +1,256 @@
+{
+  "master": {
+    "slaves": [
+      {
+        "host": "169.254.162.48",
+        "port": 502,
+        "type": "tcp",
+        "method": "socket",
+        "timeout": 35,
+        "byteOrder": "BIG",
+        "retries": true,
+        "retryOnEmpty": true,
+        "retryOnInvalid": true,
+        "pollPeriod": 5000,
+        "unitId": 1,
+        "deviceName": "test_hmkim_device",
+        "attributesPollPeriod": 5000,
+        "timeseriesPollPeriod": 5000,
+        "sendDataOnlyOnChange": true,
+        "connectAttemptTimeMs": 5000,
+        "connectAttemptCount": 5,
+        "waitAfterFailedAttemptsMs": 300000,
+        "timeseries": [
+          {
+            "tag": "S001P01_GRIDFR",
+            "type": "16uint",
+            "functionCode": 3,
+            "objectsCount": 1,
+            "address": 99
+          },
+          {
+            "tag": "S001P01_AVGVOL",
+            "type": "16uint",
+            "functionCode": 3,
+            "objectsCount": 1,
+            "address": 100
+          },
+          {
+            "tag": "S001P01_AVGCUR",
+            "type": "32uint",
+            "functionCode": 3,
+            "objectsCount": 2,
+            "address": 101
+          },
+          {
+            "tag": "S001P01_APPPOW",
+            "type": "16uint",
+            "functionCode": 3,
+            "objectsCount": 1,
+            "address": 103
+          },
+          {
+            "tag": "S001P01_ACTPOW",
+            "type": "16int",
+            "functionCode": 3,
+            "objectsCount": 1,
+            "address": 104
+          },
+          {
+            "tag": "S001P01_REAPOW",
+            "type": "16int",
+            "functionCode": 3,
+            "objectsCount": 1,
+            "address": 105
+          },
+          {
+            "tag": "S001P01_POWER",
+            "type": "16uint",
+            "functionCode": 3,
+            "objectsCount": 1,
+            "address": 106
+          },
+          {
+            "tag": "S001P01_PHVOLA",
+            "type": "16uint",
+            "functionCode": 3,
+            "objectsCount": 1,
+            "address": 107
+          },
+          {
+            "tag": "S001P01_PHCURA",
+            "type": "16uint",
+            "functionCode": 3,
+            "objectsCount": 1,
+            "address": 108
+          },
+          {
+            "tag": "S001P01_PHVOLB",
+            "type": "16uint",
+            "functionCode": 3,
+            "objectsCount": 1,
+            "address": 109
+          },
+          {
+            "tag": "S001P01_PHCURB",
+            "type": "16uint",
+            "functionCode": 3,
+            "objectsCount": 1,
+            "address": 110
+          },
+          {
+            "tag": "S001P01_PHVOLC",
+            "type": "16uint",
+            "functionCode": 3,
+            "objectsCount": 1,
+            "address": 111
+          },
+          {
+            "tag": "S001P01_PHCURC",
+            "type": "16uint",
+            "functionCode": 3,
+            "objectsCount": 1,
+            "address": 112
+          },
+          {
+            "tag": "S001P01_TOTDE",
+            "type": "32uint",
+            "functionCode": 3,
+            "objectsCount": 2,
+            "address": 113
+          },
+          {
+            "tag": "S001P01_TOTCE",
+            "type": "32uint",
+            "functionCode": 3,
+            "objectsCount": 2,
+            "address": 115
+          },
+          {
+            "tag": "S001P01_CABTMP",
+            "type": "16int",
+            "functionCode": 3,
+            "objectsCount": 1,
+            "address": 117
+          },
+          {
+            "tag": "S001P01_PE1TMP",
+            "type": "16uint",
+            "functionCode": 3,
+            "objectsCount": 1,
+            "address": 118
+          },
+          {
+            "tag": "S001P01_PE2TMP",
+            "type": "16int",
+            "functionCode": 3,
+            "objectsCount": 1,
+            "address": 119
+          },
+          {
+            "tag": "S001P01_PE3TMP",
+            "type": "16int",
+            "functionCode": 3,
+            "objectsCount": 1,
+            "address": 120
+          },
+
+          {
+            "tag": "S001P01_OPST01",
+            "type": "bytes",
+            "functionCode": 3,
+            "objectsCount": 1,
+            "address": 180
+          },
+          {
+            "tag": "S001P01_ALRM01",
+            "type": "bytes",
+            "functionCode": 3,
+            "objectsCount": 1,
+            "address": 181
+          },
+          {
+            "tag": "S001P01_ALRM02",
+            "type": "bytes",
+            "functionCode": 3,
+            "objectsCount": 1,
+            "address": 182
+          },
+          {
+            "tag": "S001P01_OPST02",
+            "type": "bytes",
+            "functionCode": 3,
+            "objectsCount": 1,
+            "address": 183
+          },
+          {
+            "tag": "S001P01_RNDETI",
+            "type": "bytes",
+            "functionCode": 3,
+            "objectsCount": 1,
+            "address": 184
+          },
+
+          {
+            "tag": "S001P01_PCSCTL",
+            "type": "bytes",
+            "functionCode": 3,
+            "objectsCount": 1,
+            "address": 189
+          },
+          {
+            "tag": "S001P01_APOWLI",
+            "type": "16int",
+            "functionCode": 3,
+            "objectsCount": 1,
+            "address": 190
+          },
+          {
+            "tag": "S001P01_RPOWVA",
+            "type": "16int",
+            "functionCode": 3,
+            "objectsCount": 1,
+            "address": 191
+          },
+          {
+            "tag": "S001P01_SOCUL",
+            "type": "16int",
+            "functionCode": 3,
+            "objectsCount": 1,
+            "address": 192
+          },
+          {
+            "tag": "S001P01_SOCLL",
+            "type": "16int",
+            "functionCode": 3,
+            "objectsCount": 1,
+            "address": 193
+          },
+
+          {
+            "tag": "S001P01_CVUL",
+            "type": "16uint",
+            "functionCode": 3,
+            "objectsCount": 1,
+            "address": 203
+          },
+          {
+            "tag": "S001P01_CVLL",
+            "type": "16uint",
+            "functionCode": 3,
+            "objectsCount": 1,
+            "address": 204
+          },
+          {
+            "tag": "S001P01_OPML",
+            "type": "16uint",
+            "functionCode": 3,
+            "objectsCount": 1,
+            "address": 205
+          }
+        ]
+      }
+    ]
+  },
+  "slave": null
+}

@@ -1,0 +1,4 @@
+""2021-12-09 13:17:15" - |INFO| - [modbus_connector.py] - modbus_connector - open - 86 - Starting Modbus connector"
+""2021-12-09 13:17:20" - |INFO| - [modbus_connector.py] - modbus_connector - close - 174 - Modbus Connector has been stopped."
+""2021-12-09 13:17:42" - |INFO| - [modbus_connector.py] - modbus_connector - open - 86 - Starting Modbus connector"
+""2021-12-09 13:17:46" - |INFO| - [modbus_connector.py] - modbus_connector - close - 174 - Modbus Connector has been stopped."

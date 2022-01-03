@@ -1,0 +1,122 @@
+{
+  "master": {
+    "slaves": [
+      {
+        "host": "169.254.8.139",
+        "port": 20001,
+        "type": "udp",
+        "method": "socket",
+        "timeout": 35,
+        "byteOrder": "BIG",
+        "retries": true,
+        "retryOnEmpty": true,
+        "retryOnInvalid": true,
+        "pollPeriod": 5000,
+        "unitId": 1,
+        "deviceName": "test_hmkim_device",
+        "attributesPollPeriod": 5000,
+        "timeseriesPollPeriod": 5000,
+        "sendDataOnlyOnChange": true,
+        "timeseries":[
+        {
+         "key": "Node1",
+         "nodeId": "1",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_1",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_2",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_3",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int"
+           }
+
+         ],
+         "expression": "value/1000"
+        },
+        {
+         "key": "Node2",
+         "nodeId": "2",
+         "values": [
+           {
+           "tag" : "S001B1R102_CVOLT_4",
+           "start": "1",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_5",
+           "start": "3",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int"
+           },
+           {
+           "tag" : "S001B1R102_CVOLT_6",
+           "start": "5",
+           "length": "2",
+           "byteorder": "big",
+           "type": "int"
+           }
+         ],
+         "expression": "value/1000"
+        },
+        {
+         "key": "Node69",
+         "nodeId": "69",
+         "values": [
+           {
+           "tag" : "S001B1R102_MOD_1_T_1",
+           "start": "1",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int"
+           },
+           {
+           "tag" : "S001B1R102_MOD_1_T_2",
+           "start": "2",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int"
+           },
+           {
+           "tag" : "S001B1R102_MOD_1_T3",
+           "start": "3",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int"
+           },
+           {
+           "tag" : "S001B1R102_MOD_1_T4",
+           "start": "4",
+           "length": "1",
+           "byteorder": "big",
+           "type": "int"
+           }
+
+         ],
+         "expression": "value/1000"
+        }
+
+       ]
+      }
+    ]
+  },
+  "slave": null
+}
+
+

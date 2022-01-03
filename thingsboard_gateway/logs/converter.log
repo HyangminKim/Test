@@ -1,0 +1,14 @@
+""2022-01-03 13:07:59" - |ERROR| - [bytes_modbus_uplink_converter.py] - bytes_modbus_uplink_converter - convert - 83 - Exception Response(131, 3, IllegalFunction)"
+NoneType: None
+""2022-01-03 13:07:59" - |ERROR| - [bytes_modbus_uplink_converter.py] - bytes_modbus_uplink_converter - convert - 83 - Exception Response(131, 3, IllegalFunction)"
+NoneType: None
+""2022-01-03 13:16:45" - |ERROR| - [bytes_modbus_uplink_converter.py] - bytes_modbus_uplink_converter - convert - 83 - Exception Response(131, 3, IllegalFunction)"
+NoneType: None
+""2022-01-03 13:16:45" - |ERROR| - [bytes_modbus_uplink_converter.py] - bytes_modbus_uplink_converter - convert - 83 - Exception Response(131, 3, IllegalFunction)"
+NoneType: None
+""2022-01-03 13:18:03" - |ERROR| - [bytes_modbus_uplink_converter.py] - bytes_modbus_uplink_converter - convert - 83 - Exception Response(132, 4, IllegalAddress)"
+NoneType: None
+""2022-01-03 13:18:15" - |ERROR| - [bytes_modbus_uplink_converter.py] - bytes_modbus_uplink_converter - convert - 83 - Exception Response(132, 4, IllegalAddress)"
+NoneType: None
+""2022-01-03 13:18:20" - |ERROR| - [bytes_modbus_uplink_converter.py] - bytes_modbus_uplink_converter - convert - 83 - Exception Response(132, 4, IllegalAddress)"
+NoneType: None

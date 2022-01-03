@@ -1,0 +1,3 @@
+""2021-12-21 14:47:16" - |WARNING| - [modbus_connector.py] - modbus_connector - __connect_to_current_master - 334 - Maximum attempt count (5) for device "test_hmkim_device" - encountered."
+""2021-12-21 15:03:56" - |WARNING| - [modbus_connector.py] - modbus_connector - __connect_to_current_master - 334 - Maximum attempt count (5) for device "test_hmkim_device" - encountered."
+""2021-12-21 15:05:42" - |WARNING| - [modbus_connector.py] - modbus_connector - __connect_to_current_master - 334 - Maximum attempt count (5) for device "test_hmkim_device" - encountered."

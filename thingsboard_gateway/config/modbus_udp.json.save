@@ -1,0 +1,28 @@
+{
+  "master": {
+    "slaves": [
+      {
+        "host": "169.254.8.139",
+        "port": 20001,
+        "type": "udp",
+        "timeout": 35,
+        "byteOrder": "BIG",
+        "retries": true,
+        "retryOnEmpty": true,
+        "retryOnInvalid": true,
+        "pollPeriod": 5000,
+        "unitId": 1,
+        "deviceName": "test_hmkim_device",
+        "attributesPollPeriod": 5000,
+        "timeseriesPollPeriod": 5000,
+        "sendDataOnlyOnChange": false,        "sendDataOnlyOnChange"
+        "timeseries":[{
+         "tag": "BMS"
+        }
+       ]
+      }
+    ]
+  },
+  "slave": null
+}
+

@@ -1,0 +1,921 @@
+""2021-12-21 14:42:55" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __init__ - 85 - Gateway starting..."
+""2021-12-21 14:42:55" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __init__ - 90 - ThingsBoard IoT gateway version: 2.9"
+""2021-12-21 14:42:55" - |INFO| - [tb_loader.py] - tb_loader - import_module - 68 - Import ModbusConnector from /home/bnd/git/test/thingsboard_gateway/connectors/modbus."
+""2021-12-21 14:42:55" - |INFO| - [tb_loader.py] - tb_loader - import_module - 68 - Import UDPConnector from /home/bnd/git/test/thingsboard_gateway/connectors/udp."
+""2021-12-21 14:42:56" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __init__ - 159 - Gateway started."
+""2021-12-21 14:43:52" - |ERROR| - [tb_gateway_service.py] - tb_gateway_service - __read_data_from_storage - 519 - Message publish failed: The client is not currently connected."
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 513, in __read_data_from_storage
+    success = event.get() == event.TB_ERR_SUCCESS
+  File "/usr/local/lib/python3.7/dist-packages/thingsboard_gateway/tb_client/tb_device_mqtt.py", line 73, in get
+    self.message_info.wait_for_publish()
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/client.py", line 362, in wait_for_publish
+    raise RuntimeError('Message publish failed: %s' % (error_string(self.rc)))
+RuntimeError: Message publish failed: The client is not currently connected.
+""2021-12-21 14:43:53" - |ERROR| - [tb_gateway_service.py] - tb_gateway_service - __read_data_from_storage - 519 - Message publish failed: The client is not currently connected."
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 513, in __read_data_from_storage
+    success = event.get() == event.TB_ERR_SUCCESS
+  File "/usr/local/lib/python3.7/dist-packages/thingsboard_gateway/tb_client/tb_device_mqtt.py", line 73, in get
+    self.message_info.wait_for_publish()
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/client.py", line 362, in wait_for_publish
+    raise RuntimeError('Message publish failed: %s' % (error_string(self.rc)))
+RuntimeError: Message publish failed: The client is not currently connected.
+""2021-12-21 14:44:05" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __stop_gateway - 250 - Stopping..."
+""2021-12-21 14:44:05" - |ERROR| - [tb_gateway_service.py] - tb_gateway_service - __close_connectors - 245 - Can't stop reactor that isn't running."
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 205, in __init__
+    sleep(0.2)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 242, in __close_connectors
+    self.available_connectors[current_connector].close()
+  File "/home/bnd/git/test/thingsboard_gateway/connectors/modbus/modbus_connector.py", line 241, in close
+    StopServer()
+  File "/home/bnd/.local/lib/python3.7/site-packages/pymodbus/server/asynchronous.py", line 351, in StopServer
+    reactor.stop()
+  File "/usr/local/lib/python3.7/dist-packages/twisted/internet/base.py", line 711, in stop
+    raise error.ReactorNotRunning("Can't stop reactor that isn't running.")
+twisted.internet.error.ReactorNotRunning: Can't stop reactor that isn't running.
+""2021-12-21 14:44:05" - |ERROR| - [tb_gateway_service.py] - tb_gateway_service - __close_connectors - 245 - Can't stop reactor that isn't running."
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 205, in __init__
+    sleep(0.2)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 242, in __close_connectors
+    self.available_connectors[current_connector].close()
+  File "/home/bnd/git/test/thingsboard_gateway/connectors/udp/udp_connector.py", line 136, in close
+    StopServer()
+  File "/home/bnd/.local/lib/python3.7/site-packages/pymodbus/server/asynchronous.py", line 351, in StopServer
+    reactor.stop()
+  File "/usr/local/lib/python3.7/dist-packages/twisted/internet/base.py", line 711, in stop
+    raise error.ReactorNotRunning("Can't stop reactor that isn't running.")
+twisted.internet.error.ReactorNotRunning: Can't stop reactor that isn't running.
+""2021-12-21 14:44:05" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __stop_gateway - 253 - The gateway has been stopped."
+""2021-12-21 14:46:52" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __init__ - 85 - Gateway starting..."
+""2021-12-21 14:46:52" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __init__ - 90 - ThingsBoard IoT gateway version: 2.9"
+""2021-12-21 14:46:53" - |INFO| - [tb_loader.py] - tb_loader - import_module - 68 - Import ModbusConnector from /home/bnd/git/test/thingsboard_gateway/connectors/modbus."
+""2021-12-21 14:46:53" - |INFO| - [tb_loader.py] - tb_loader - import_module - 68 - Import UDPConnector from /home/bnd/git/test/thingsboard_gateway/connectors/udp."
+""2021-12-21 14:46:53" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __init__ - 159 - Gateway started."
+""2021-12-21 14:48:41" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __stop_gateway - 250 - Stopping..."
+""2021-12-21 14:48:41" - |ERROR| - [tb_gateway_service.py] - tb_gateway_service - __close_connectors - 245 - Can't stop reactor that isn't running."
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 205, in __init__
+    sleep(0.2)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 242, in __close_connectors
+    self.available_connectors[current_connector].close()
+  File "/home/bnd/git/test/thingsboard_gateway/connectors/modbus/modbus_connector.py", line 241, in close
+    StopServer()
+  File "/home/bnd/.local/lib/python3.7/site-packages/pymodbus/server/asynchronous.py", line 351, in StopServer
+    reactor.stop()
+  File "/usr/local/lib/python3.7/dist-packages/twisted/internet/base.py", line 711, in stop
+    raise error.ReactorNotRunning("Can't stop reactor that isn't running.")
+twisted.internet.error.ReactorNotRunning: Can't stop reactor that isn't running.
+""2021-12-21 14:48:41" - |ERROR| - [tb_gateway_service.py] - tb_gateway_service - __close_connectors - 245 - Can't stop reactor that isn't running."
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 205, in __init__
+    sleep(0.2)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 242, in __close_connectors
+    self.available_connectors[current_connector].close()
+  File "/home/bnd/git/test/thingsboard_gateway/connectors/udp/udp_connector.py", line 136, in close
+    StopServer()
+  File "/home/bnd/.local/lib/python3.7/site-packages/pymodbus/server/asynchronous.py", line 351, in StopServer
+    reactor.stop()
+  File "/usr/local/lib/python3.7/dist-packages/twisted/internet/base.py", line 711, in stop
+    raise error.ReactorNotRunning("Can't stop reactor that isn't running.")
+twisted.internet.error.ReactorNotRunning: Can't stop reactor that isn't running.
+""2021-12-21 14:48:41" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __stop_gateway - 253 - The gateway has been stopped."
+""2021-12-21 15:03:04" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __init__ - 85 - Gateway starting..."
+""2021-12-21 15:03:04" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __init__ - 90 - ThingsBoard IoT gateway version: 2.9"
+""2021-12-21 15:03:05" - |INFO| - [tb_loader.py] - tb_loader - import_module - 68 - Import ModbusConnector from /home/bnd/git/test/thingsboard_gateway/connectors/modbus."
+""2021-12-21 15:03:05" - |INFO| - [tb_loader.py] - tb_loader - import_module - 68 - Import UDPConnector from /home/bnd/git/test/thingsboard_gateway/connectors/udp."
+""2021-12-21 15:03:05" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __init__ - 159 - Gateway started."
+""2021-12-21 15:03:05" - |ERROR| - [tb_gateway_service.py] - tb_gateway_service - __read_data_from_storage - 458 - Expecting value: line 1 column 1 (char 0)"
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/simplejson/scanner.py", line 37, in _scan_once
+    nextchar = string[idx]
+IndexError: string index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 456, in __read_data_from_storage
+    current_event = loads(event)
+  File "/usr/lib/python3/dist-packages/simplejson/__init__.py", line 518, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3/dist-packages/simplejson/decoder.py", line 370, in decode
+    obj, end = self.raw_decode(s)
+  File "/usr/lib/python3/dist-packages/simplejson/decoder.py", line 400, in raw_decode
+    return self.scan_once(s, idx=_w(s, idx).end())
+  File "/usr/lib/python3/dist-packages/simplejson/scanner.py", line 79, in scan_once
+    return _scan_once(string, idx)
+  File "/usr/lib/python3/dist-packages/simplejson/scanner.py", line 39, in _scan_once
+    raise JSONDecodeError(errmsg, string, idx)
+simplejson.errors.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+""2021-12-21 15:03:05" - |ERROR| - [tb_gateway_service.py] - tb_gateway_service - __read_data_from_storage - 458 - Expecting value: line 1 column 1 (char 0)"
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/simplejson/scanner.py", line 37, in _scan_once
+    nextchar = string[idx]
+IndexError: string index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 456, in __read_data_from_storage
+    current_event = loads(event)
+  File "/usr/lib/python3/dist-packages/simplejson/__init__.py", line 518, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3/dist-packages/simplejson/decoder.py", line 370, in decode
+    obj, end = self.raw_decode(s)
+  File "/usr/lib/python3/dist-packages/simplejson/decoder.py", line 400, in raw_decode
+    return self.scan_once(s, idx=_w(s, idx).end())
+  File "/usr/lib/python3/dist-packages/simplejson/scanner.py", line 79, in scan_once
+    return _scan_once(string, idx)
+  File "/usr/lib/python3/dist-packages/simplejson/scanner.py", line 39, in _scan_once
+    raise JSONDecodeError(errmsg, string, idx)
+simplejson.errors.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+""2021-12-21 15:03:10" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __stop_gateway - 250 - Stopping..."
+""2021-12-21 15:03:10" - |ERROR| - [tb_gateway_service.py] - tb_gateway_service - __close_connectors - 245 - Can't stop reactor that isn't running."
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 205, in __init__
+    sleep(0.2)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 242, in __close_connectors
+    self.available_connectors[current_connector].close()
+  File "/home/bnd/git/test/thingsboard_gateway/connectors/modbus/modbus_connector.py", line 241, in close
+    StopServer()
+  File "/home/bnd/.local/lib/python3.7/site-packages/pymodbus/server/asynchronous.py", line 351, in StopServer
+    reactor.stop()
+  File "/usr/local/lib/python3.7/dist-packages/twisted/internet/base.py", line 711, in stop
+    raise error.ReactorNotRunning("Can't stop reactor that isn't running.")
+twisted.internet.error.ReactorNotRunning: Can't stop reactor that isn't running.
+""2021-12-21 15:03:10" - |ERROR| - [tb_gateway_service.py] - tb_gateway_service - __close_connectors - 245 - Can't stop reactor that isn't running."
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 205, in __init__
+    sleep(0.2)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 242, in __close_connectors
+    self.available_connectors[current_connector].close()
+  File "/home/bnd/git/test/thingsboard_gateway/connectors/udp/udp_connector.py", line 136, in close
+    StopServer()
+  File "/home/bnd/.local/lib/python3.7/site-packages/pymodbus/server/asynchronous.py", line 351, in StopServer
+    reactor.stop()
+  File "/usr/local/lib/python3.7/dist-packages/twisted/internet/base.py", line 711, in stop
+    raise error.ReactorNotRunning("Can't stop reactor that isn't running.")
+twisted.internet.error.ReactorNotRunning: Can't stop reactor that isn't running.
+""2021-12-21 15:03:10" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __stop_gateway - 253 - The gateway has been stopped."
+""2021-12-21 15:03:32" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __init__ - 85 - Gateway starting..."
+""2021-12-21 15:03:32" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __init__ - 90 - ThingsBoard IoT gateway version: 2.9"
+""2021-12-21 15:03:33" - |INFO| - [tb_loader.py] - tb_loader - import_module - 68 - Import ModbusConnector from /home/bnd/git/test/thingsboard_gateway/connectors/modbus."
+""2021-12-21 15:03:33" - |INFO| - [tb_loader.py] - tb_loader - import_module - 68 - Import UDPConnector from /home/bnd/git/test/thingsboard_gateway/connectors/udp."
+""2021-12-21 15:03:33" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __init__ - 159 - Gateway started."
+""2021-12-21 15:03:38" - |ERROR| - [tb_updater.py] - tb_updater - check_for_new_version - 87 - HTTPSConnectionPool(host='updates.thingsboard.io', port=443): Read timed out. (read timeout=5)"
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 346, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 852, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 340, in connect
+    ssl_context=context)
+  File "/usr/lib/python3/dist-packages/urllib3/util/ssl_.py", line 332, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/lib/python3.7/ssl.py", line 423, in wrap_socket
+    session=session
+  File "/usr/lib/python3.7/ssl.py", line 870, in _create
+    self.do_handshake()
+  File "/usr/lib/python3.7/ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+socket.timeout: _ssl.c:1059: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 367, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/bnd/.local/lib/python3.7/site-packages/six.py", line 719, in reraise
+    raise value
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 349, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 309, in _raise_timeout
+    raise ReadTimeoutError(self, url, "Read timed out. (read timeout=%s)" % timeout_value)
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='updates.thingsboard.io', port=443): Read timed out. (read timeout=5)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/thingsboard_gateway/tb_utility/tb_updater.py", line 72, in check_for_new_version
+    response = post(**request_args)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 112, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 520, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 630, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 521, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='updates.thingsboard.io', port=443): Read timed out. (read timeout=5)
+""2021-12-21 15:04:15" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __stop_gateway - 250 - Stopping..."
+""2021-12-21 15:04:15" - |ERROR| - [tb_gateway_service.py] - tb_gateway_service - __close_connectors - 245 - Can't stop reactor that isn't running."
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 205, in __init__
+    sleep(0.2)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 242, in __close_connectors
+    self.available_connectors[current_connector].close()
+  File "/home/bnd/git/test/thingsboard_gateway/connectors/modbus/modbus_connector.py", line 241, in close
+    StopServer()
+  File "/home/bnd/.local/lib/python3.7/site-packages/pymodbus/server/asynchronous.py", line 351, in StopServer
+    reactor.stop()
+  File "/usr/local/lib/python3.7/dist-packages/twisted/internet/base.py", line 711, in stop
+    raise error.ReactorNotRunning("Can't stop reactor that isn't running.")
+twisted.internet.error.ReactorNotRunning: Can't stop reactor that isn't running.
+""2021-12-21 15:04:15" - |ERROR| - [tb_gateway_service.py] - tb_gateway_service - __close_connectors - 245 - Can't stop reactor that isn't running."
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 205, in __init__
+    sleep(0.2)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 242, in __close_connectors
+    self.available_connectors[current_connector].close()
+  File "/home/bnd/git/test/thingsboard_gateway/connectors/udp/udp_connector.py", line 136, in close
+    StopServer()
+  File "/home/bnd/.local/lib/python3.7/site-packages/pymodbus/server/asynchronous.py", line 351, in StopServer
+    reactor.stop()
+  File "/usr/local/lib/python3.7/dist-packages/twisted/internet/base.py", line 711, in stop
+    raise error.ReactorNotRunning("Can't stop reactor that isn't running.")
+twisted.internet.error.ReactorNotRunning: Can't stop reactor that isn't running.
+""2021-12-21 15:04:15" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __stop_gateway - 253 - The gateway has been stopped."
+""2021-12-21 15:05:19" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __init__ - 85 - Gateway starting..."
+""2021-12-21 15:05:19" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __init__ - 90 - ThingsBoard IoT gateway version: 2.9"
+""2021-12-21 15:05:19" - |INFO| - [tb_loader.py] - tb_loader - import_module - 68 - Import ModbusConnector from /home/bnd/git/test/thingsboard_gateway/connectors/modbus."
+""2021-12-21 15:05:19" - |INFO| - [tb_loader.py] - tb_loader - import_module - 68 - Import UDPConnector from /home/bnd/git/test/thingsboard_gateway/connectors/udp."
+""2021-12-21 15:05:19" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __init__ - 159 - Gateway started."
+""2021-12-21 15:06:20" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __stop_gateway - 250 - Stopping..."
+""2021-12-21 15:06:20" - |ERROR| - [tb_gateway_service.py] - tb_gateway_service - __close_connectors - 245 - Can't stop reactor that isn't running."
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 205, in __init__
+    sleep(0.2)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 242, in __close_connectors
+    self.available_connectors[current_connector].close()
+  File "/home/bnd/git/test/thingsboard_gateway/connectors/modbus/modbus_connector.py", line 241, in close
+    StopServer()
+  File "/home/bnd/.local/lib/python3.7/site-packages/pymodbus/server/asynchronous.py", line 351, in StopServer
+    reactor.stop()
+  File "/usr/local/lib/python3.7/dist-packages/twisted/internet/base.py", line 711, in stop
+    raise error.ReactorNotRunning("Can't stop reactor that isn't running.")
+twisted.internet.error.ReactorNotRunning: Can't stop reactor that isn't running.
+""2021-12-21 15:06:20" - |ERROR| - [tb_gateway_service.py] - tb_gateway_service - __close_connectors - 245 - Can't stop reactor that isn't running."
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 205, in __init__
+    sleep(0.2)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 242, in __close_connectors
+    self.available_connectors[current_connector].close()
+  File "/home/bnd/git/test/thingsboard_gateway/connectors/udp/udp_connector.py", line 136, in close
+    StopServer()
+  File "/home/bnd/.local/lib/python3.7/site-packages/pymodbus/server/asynchronous.py", line 351, in StopServer
+    reactor.stop()
+  File "/usr/local/lib/python3.7/dist-packages/twisted/internet/base.py", line 711, in stop
+    raise error.ReactorNotRunning("Can't stop reactor that isn't running.")
+twisted.internet.error.ReactorNotRunning: Can't stop reactor that isn't running.
+""2021-12-21 15:06:20" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __stop_gateway - 253 - The gateway has been stopped."
+""2021-12-21 15:06:28" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __init__ - 85 - Gateway starting..."
+""2021-12-21 15:06:28" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __init__ - 90 - ThingsBoard IoT gateway version: 2.9"
+""2021-12-21 15:06:28" - |INFO| - [tb_loader.py] - tb_loader - import_module - 68 - Import ModbusConnector from /home/bnd/git/test/thingsboard_gateway/connectors/modbus."
+""2021-12-21 15:06:28" - |INFO| - [tb_loader.py] - tb_loader - import_module - 68 - Import UDPConnector from /home/bnd/git/test/thingsboard_gateway/connectors/udp."
+""2021-12-21 15:06:28" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __init__ - 159 - Gateway started."
+""2021-12-21 15:06:33" - |ERROR| - [tb_updater.py] - tb_updater - check_for_new_version - 87 - HTTPSConnectionPool(host='updates.thingsboard.io', port=443): Read timed out. (read timeout=5)"
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 346, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 852, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 340, in connect
+    ssl_context=context)
+  File "/usr/lib/python3/dist-packages/urllib3/util/ssl_.py", line 332, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/lib/python3.7/ssl.py", line 423, in wrap_socket
+    session=session
+  File "/usr/lib/python3.7/ssl.py", line 870, in _create
+    self.do_handshake()
+  File "/usr/lib/python3.7/ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+socket.timeout: _ssl.c:1059: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 367, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/bnd/.local/lib/python3.7/site-packages/six.py", line 719, in reraise
+    raise value
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 349, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 309, in _raise_timeout
+    raise ReadTimeoutError(self, url, "Read timed out. (read timeout=%s)" % timeout_value)
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='updates.thingsboard.io', port=443): Read timed out. (read timeout=5)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/thingsboard_gateway/tb_utility/tb_updater.py", line 72, in check_for_new_version
+    response = post(**request_args)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 112, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 520, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 630, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 521, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='updates.thingsboard.io', port=443): Read timed out. (read timeout=5)
+""2021-12-21 15:06:35" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __stop_gateway - 250 - Stopping..."
+""2021-12-21 15:06:35" - |ERROR| - [tb_gateway_service.py] - tb_gateway_service - __close_connectors - 245 - Can't stop reactor that isn't running."
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 205, in __init__
+    sleep(0.2)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 242, in __close_connectors
+    self.available_connectors[current_connector].close()
+  File "/home/bnd/git/test/thingsboard_gateway/connectors/modbus/modbus_connector.py", line 241, in close
+    StopServer()
+  File "/home/bnd/.local/lib/python3.7/site-packages/pymodbus/server/asynchronous.py", line 351, in StopServer
+    reactor.stop()
+  File "/usr/local/lib/python3.7/dist-packages/twisted/internet/base.py", line 711, in stop
+    raise error.ReactorNotRunning("Can't stop reactor that isn't running.")
+twisted.internet.error.ReactorNotRunning: Can't stop reactor that isn't running.
+""2021-12-21 15:06:35" - |ERROR| - [tb_gateway_service.py] - tb_gateway_service - __close_connectors - 245 - Can't stop reactor that isn't running."
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 205, in __init__
+    sleep(0.2)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 242, in __close_connectors
+    self.available_connectors[current_connector].close()
+  File "/home/bnd/git/test/thingsboard_gateway/connectors/udp/udp_connector.py", line 136, in close
+    StopServer()
+  File "/home/bnd/.local/lib/python3.7/site-packages/pymodbus/server/asynchronous.py", line 351, in StopServer
+    reactor.stop()
+  File "/usr/local/lib/python3.7/dist-packages/twisted/internet/base.py", line 711, in stop
+    raise error.ReactorNotRunning("Can't stop reactor that isn't running.")
+twisted.internet.error.ReactorNotRunning: Can't stop reactor that isn't running.
+""2021-12-21 15:06:35" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __stop_gateway - 253 - The gateway has been stopped."
+""2021-12-21 15:07:24" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __init__ - 85 - Gateway starting..."
+""2021-12-21 15:07:24" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __init__ - 90 - ThingsBoard IoT gateway version: 2.9"
+""2021-12-21 15:07:24" - |INFO| - [tb_loader.py] - tb_loader - import_module - 68 - Import ModbusConnector from /home/bnd/git/test/thingsboard_gateway/connectors/modbus."
+""2021-12-21 15:07:24" - |INFO| - [tb_loader.py] - tb_loader - import_module - 68 - Import UDPConnector from /home/bnd/git/test/thingsboard_gateway/connectors/udp."
+""2021-12-21 15:07:25" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __init__ - 159 - Gateway started."
+""2021-12-21 15:07:29" - |WARNING| - [tb_updater.py] - tb_updater - check_for_new_version - 85 - Cannot connect to the update service. PLease check your internet connection."
+""2021-12-21 15:11:03" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __stop_gateway - 250 - Stopping..."
+""2021-12-21 15:11:03" - |ERROR| - [tb_gateway_service.py] - tb_gateway_service - __close_connectors - 245 - Can't stop reactor that isn't running."
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 205, in __init__
+    sleep(0.2)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 242, in __close_connectors
+    self.available_connectors[current_connector].close()
+  File "/home/bnd/git/test/thingsboard_gateway/connectors/modbus/modbus_connector.py", line 241, in close
+    StopServer()
+  File "/home/bnd/.local/lib/python3.7/site-packages/pymodbus/server/asynchronous.py", line 351, in StopServer
+    reactor.stop()
+  File "/usr/local/lib/python3.7/dist-packages/twisted/internet/base.py", line 711, in stop
+    raise error.ReactorNotRunning("Can't stop reactor that isn't running.")
+twisted.internet.error.ReactorNotRunning: Can't stop reactor that isn't running.
+""2021-12-21 15:11:03" - |ERROR| - [tb_gateway_service.py] - tb_gateway_service - __close_connectors - 245 - Can't stop reactor that isn't running."
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 205, in __init__
+    sleep(0.2)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 242, in __close_connectors
+    self.available_connectors[current_connector].close()
+  File "/home/bnd/git/test/thingsboard_gateway/connectors/udp/udp_connector.py", line 136, in close
+    StopServer()
+  File "/home/bnd/.local/lib/python3.7/site-packages/pymodbus/server/asynchronous.py", line 351, in StopServer
+    reactor.stop()
+  File "/usr/local/lib/python3.7/dist-packages/twisted/internet/base.py", line 711, in stop
+    raise error.ReactorNotRunning("Can't stop reactor that isn't running.")
+twisted.internet.error.ReactorNotRunning: Can't stop reactor that isn't running.
+""2021-12-21 15:11:03" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __stop_gateway - 253 - The gateway has been stopped."
+""2021-12-21 15:11:46" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __init__ - 85 - Gateway starting..."
+""2021-12-21 15:11:46" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __init__ - 90 - ThingsBoard IoT gateway version: 2.9"
+""2021-12-21 15:11:46" - |INFO| - [tb_loader.py] - tb_loader - import_module - 68 - Import ModbusConnector from /home/bnd/git/test/thingsboard_gateway/connectors/modbus."
+""2021-12-21 15:11:46" - |INFO| - [tb_loader.py] - tb_loader - import_module - 68 - Import UDPConnector from /home/bnd/git/test/thingsboard_gateway/connectors/udp."
+""2021-12-21 15:11:46" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __init__ - 159 - Gateway started."
+""2021-12-21 15:11:51" - |ERROR| - [tb_updater.py] - tb_updater - check_for_new_version - 87 - HTTPSConnectionPool(host='updates.thingsboard.io', port=443): Read timed out. (read timeout=5)"
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 346, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 852, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 340, in connect
+    ssl_context=context)
+  File "/usr/lib/python3/dist-packages/urllib3/util/ssl_.py", line 332, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/lib/python3.7/ssl.py", line 423, in wrap_socket
+    session=session
+  File "/usr/lib/python3.7/ssl.py", line 870, in _create
+    self.do_handshake()
+  File "/usr/lib/python3.7/ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+socket.timeout: _ssl.c:1059: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 367, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/bnd/.local/lib/python3.7/site-packages/six.py", line 719, in reraise
+    raise value
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 349, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 309, in _raise_timeout
+    raise ReadTimeoutError(self, url, "Read timed out. (read timeout=%s)" % timeout_value)
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='updates.thingsboard.io', port=443): Read timed out. (read timeout=5)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/thingsboard_gateway/tb_utility/tb_updater.py", line 72, in check_for_new_version
+    response = post(**request_args)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 112, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 520, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 630, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 521, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='updates.thingsboard.io', port=443): Read timed out. (read timeout=5)
+""2021-12-21 15:13:07" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __stop_gateway - 250 - Stopping..."
+""2021-12-21 15:13:07" - |ERROR| - [tb_gateway_service.py] - tb_gateway_service - __close_connectors - 245 - Can't stop reactor that isn't running."
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 205, in __init__
+    sleep(0.2)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 242, in __close_connectors
+    self.available_connectors[current_connector].close()
+  File "/home/bnd/git/test/thingsboard_gateway/connectors/modbus/modbus_connector.py", line 241, in close
+    StopServer()
+  File "/home/bnd/.local/lib/python3.7/site-packages/pymodbus/server/asynchronous.py", line 351, in StopServer
+    reactor.stop()
+  File "/usr/local/lib/python3.7/dist-packages/twisted/internet/base.py", line 711, in stop
+    raise error.ReactorNotRunning("Can't stop reactor that isn't running.")
+twisted.internet.error.ReactorNotRunning: Can't stop reactor that isn't running.
+""2021-12-21 15:13:07" - |ERROR| - [tb_gateway_service.py] - tb_gateway_service - __close_connectors - 245 - Can't stop reactor that isn't running."
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 205, in __init__
+    sleep(0.2)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 242, in __close_connectors
+    self.available_connectors[current_connector].close()
+  File "/home/bnd/git/test/thingsboard_gateway/connectors/udp/udp_connector.py", line 136, in close
+    StopServer()
+  File "/home/bnd/.local/lib/python3.7/site-packages/pymodbus/server/asynchronous.py", line 351, in StopServer
+    reactor.stop()
+  File "/usr/local/lib/python3.7/dist-packages/twisted/internet/base.py", line 711, in stop
+    raise error.ReactorNotRunning("Can't stop reactor that isn't running.")
+twisted.internet.error.ReactorNotRunning: Can't stop reactor that isn't running.
+""2021-12-21 15:13:07" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __stop_gateway - 253 - The gateway has been stopped."
+""2021-12-21 15:19:17" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __init__ - 85 - Gateway starting..."
+""2021-12-21 15:19:17" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __init__ - 90 - ThingsBoard IoT gateway version: 2.9"
+""2021-12-21 15:19:17" - |INFO| - [tb_loader.py] - tb_loader - import_module - 68 - Import ModbusConnector from /home/bnd/git/test/thingsboard_gateway/connectors/modbus."
+""2021-12-21 15:19:18" - |INFO| - [tb_loader.py] - tb_loader - import_module - 68 - Import UDPConnector from /home/bnd/git/test/thingsboard_gateway/connectors/udp."
+""2021-12-21 15:19:18" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __init__ - 159 - Gateway started."
+""2021-12-21 15:19:23" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __stop_gateway - 250 - Stopping..."
+""2021-12-21 15:19:23" - |ERROR| - [tb_gateway_service.py] - tb_gateway_service - __close_connectors - 245 - Can't stop reactor that isn't running."
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 205, in __init__
+    sleep(0.2)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 242, in __close_connectors
+    self.available_connectors[current_connector].close()
+  File "/home/bnd/git/test/thingsboard_gateway/connectors/modbus/modbus_connector.py", line 241, in close
+    StopServer()
+  File "/home/bnd/.local/lib/python3.7/site-packages/pymodbus/server/asynchronous.py", line 351, in StopServer
+    reactor.stop()
+  File "/usr/local/lib/python3.7/dist-packages/twisted/internet/base.py", line 711, in stop
+    raise error.ReactorNotRunning("Can't stop reactor that isn't running.")
+twisted.internet.error.ReactorNotRunning: Can't stop reactor that isn't running.
+""2021-12-21 15:19:23" - |ERROR| - [tb_gateway_service.py] - tb_gateway_service - __close_connectors - 245 - Can't stop reactor that isn't running."
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 205, in __init__
+    sleep(0.2)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 242, in __close_connectors
+    self.available_connectors[current_connector].close()
+  File "/home/bnd/git/test/thingsboard_gateway/connectors/udp/udp_connector.py", line 136, in close
+    StopServer()
+  File "/home/bnd/.local/lib/python3.7/site-packages/pymodbus/server/asynchronous.py", line 351, in StopServer
+    reactor.stop()
+  File "/usr/local/lib/python3.7/dist-packages/twisted/internet/base.py", line 711, in stop
+    raise error.ReactorNotRunning("Can't stop reactor that isn't running.")
+twisted.internet.error.ReactorNotRunning: Can't stop reactor that isn't running.
+""2021-12-21 15:19:23" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __stop_gateway - 253 - The gateway has been stopped."
+""2021-12-21 15:19:23" - |ERROR| - [tb_updater.py] - tb_updater - check_for_new_version - 87 - HTTPSConnectionPool(host='updates.thingsboard.io', port=443): Read timed out. (read timeout=5)"
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 346, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 852, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 340, in connect
+    ssl_context=context)
+  File "/usr/lib/python3/dist-packages/urllib3/util/ssl_.py", line 332, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/lib/python3.7/ssl.py", line 423, in wrap_socket
+    session=session
+  File "/usr/lib/python3.7/ssl.py", line 870, in _create
+    self.do_handshake()
+  File "/usr/lib/python3.7/ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+socket.timeout: _ssl.c:1059: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 367, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/bnd/.local/lib/python3.7/site-packages/six.py", line 719, in reraise
+    raise value
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 349, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 309, in _raise_timeout
+    raise ReadTimeoutError(self, url, "Read timed out. (read timeout=%s)" % timeout_value)
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='updates.thingsboard.io', port=443): Read timed out. (read timeout=5)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/thingsboard_gateway/tb_utility/tb_updater.py", line 72, in check_for_new_version
+    response = post(**request_args)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 112, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 520, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 630, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 521, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='updates.thingsboard.io', port=443): Read timed out. (read timeout=5)
+""2021-12-21 15:20:10" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __init__ - 85 - Gateway starting..."
+""2021-12-21 15:20:10" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __init__ - 90 - ThingsBoard IoT gateway version: 2.9"
+""2021-12-21 15:20:10" - |INFO| - [tb_loader.py] - tb_loader - import_module - 68 - Import ModbusConnector from /home/bnd/git/test/thingsboard_gateway/connectors/modbus."
+""2021-12-21 15:20:10" - |INFO| - [tb_loader.py] - tb_loader - import_module - 68 - Import UDPConnector from /home/bnd/git/test/thingsboard_gateway/connectors/udp."
+""2021-12-21 15:20:10" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __init__ - 159 - Gateway started."
+""2021-12-21 15:20:15" - |WARNING| - [tb_updater.py] - tb_updater - check_for_new_version - 85 - Cannot connect to the update service. PLease check your internet connection."
+""2021-12-21 15:20:19" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __stop_gateway - 250 - Stopping..."
+""2021-12-21 15:20:19" - |ERROR| - [tb_gateway_service.py] - tb_gateway_service - __close_connectors - 245 - Can't stop reactor that isn't running."
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 205, in __init__
+    sleep(0.2)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 242, in __close_connectors
+    self.available_connectors[current_connector].close()
+  File "/home/bnd/git/test/thingsboard_gateway/connectors/modbus/modbus_connector.py", line 241, in close
+    StopServer()
+  File "/home/bnd/.local/lib/python3.7/site-packages/pymodbus/server/asynchronous.py", line 351, in StopServer
+    reactor.stop()
+  File "/usr/local/lib/python3.7/dist-packages/twisted/internet/base.py", line 711, in stop
+    raise error.ReactorNotRunning("Can't stop reactor that isn't running.")
+twisted.internet.error.ReactorNotRunning: Can't stop reactor that isn't running.
+""2021-12-21 15:20:19" - |ERROR| - [tb_gateway_service.py] - tb_gateway_service - __close_connectors - 245 - Can't stop reactor that isn't running."
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 205, in __init__
+    sleep(0.2)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 242, in __close_connectors
+    self.available_connectors[current_connector].close()
+  File "/home/bnd/git/test/thingsboard_gateway/connectors/udp/udp_connector.py", line 136, in close
+    StopServer()
+  File "/home/bnd/.local/lib/python3.7/site-packages/pymodbus/server/asynchronous.py", line 351, in StopServer
+    reactor.stop()
+  File "/usr/local/lib/python3.7/dist-packages/twisted/internet/base.py", line 711, in stop
+    raise error.ReactorNotRunning("Can't stop reactor that isn't running.")
+twisted.internet.error.ReactorNotRunning: Can't stop reactor that isn't running.
+""2021-12-21 15:20:19" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __stop_gateway - 253 - The gateway has been stopped."
+""2021-12-21 15:22:03" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __init__ - 85 - Gateway starting..."
+""2021-12-21 15:22:03" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __init__ - 90 - ThingsBoard IoT gateway version: 2.9"
+""2021-12-21 15:22:03" - |INFO| - [tb_loader.py] - tb_loader - import_module - 68 - Import ModbusConnector from /home/bnd/git/test/thingsboard_gateway/connectors/modbus."
+""2021-12-21 15:22:03" - |INFO| - [tb_loader.py] - tb_loader - import_module - 68 - Import UDPConnector from /home/bnd/git/test/thingsboard_gateway/connectors/udp."
+""2021-12-21 15:22:03" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __init__ - 159 - Gateway started."
+""2021-12-21 15:22:14" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __stop_gateway - 250 - Stopping..."
+""2021-12-21 15:22:14" - |ERROR| - [tb_gateway_service.py] - tb_gateway_service - __close_connectors - 245 - Can't stop reactor that isn't running."
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 205, in __init__
+    sleep(0.2)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 242, in __close_connectors
+    self.available_connectors[current_connector].close()
+  File "/home/bnd/git/test/thingsboard_gateway/connectors/modbus/modbus_connector.py", line 241, in close
+    StopServer()
+  File "/home/bnd/.local/lib/python3.7/site-packages/pymodbus/server/asynchronous.py", line 351, in StopServer
+    reactor.stop()
+  File "/usr/local/lib/python3.7/dist-packages/twisted/internet/base.py", line 711, in stop
+    raise error.ReactorNotRunning("Can't stop reactor that isn't running.")
+twisted.internet.error.ReactorNotRunning: Can't stop reactor that isn't running.
+""2021-12-21 15:22:14" - |ERROR| - [tb_gateway_service.py] - tb_gateway_service - __close_connectors - 245 - Can't stop reactor that isn't running."
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 205, in __init__
+    sleep(0.2)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 242, in __close_connectors
+    self.available_connectors[current_connector].close()
+  File "/home/bnd/git/test/thingsboard_gateway/connectors/udp/udp_connector.py", line 136, in close
+    StopServer()
+  File "/home/bnd/.local/lib/python3.7/site-packages/pymodbus/server/asynchronous.py", line 351, in StopServer
+    reactor.stop()
+  File "/usr/local/lib/python3.7/dist-packages/twisted/internet/base.py", line 711, in stop
+    raise error.ReactorNotRunning("Can't stop reactor that isn't running.")
+twisted.internet.error.ReactorNotRunning: Can't stop reactor that isn't running.
+""2021-12-21 15:22:14" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __stop_gateway - 253 - The gateway has been stopped."
+""2021-12-21 15:22:35" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __init__ - 85 - Gateway starting..."
+""2021-12-21 15:22:35" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __init__ - 90 - ThingsBoard IoT gateway version: 2.9"
+""2021-12-21 15:22:36" - |INFO| - [tb_loader.py] - tb_loader - import_module - 68 - Import ModbusConnector from /home/bnd/git/test/thingsboard_gateway/connectors/modbus."
+""2021-12-21 15:22:36" - |INFO| - [tb_loader.py] - tb_loader - import_module - 68 - Import UDPConnector from /home/bnd/git/test/thingsboard_gateway/connectors/udp."
+""2021-12-21 15:22:36" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __init__ - 159 - Gateway started."
+""2021-12-21 15:25:24" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __stop_gateway - 250 - Stopping..."
+""2021-12-21 15:25:24" - |ERROR| - [tb_gateway_service.py] - tb_gateway_service - __close_connectors - 245 - Can't stop reactor that isn't running."
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 205, in __init__
+    sleep(0.2)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 242, in __close_connectors
+    self.available_connectors[current_connector].close()
+  File "/home/bnd/git/test/thingsboard_gateway/connectors/modbus/modbus_connector.py", line 241, in close
+    StopServer()
+  File "/home/bnd/.local/lib/python3.7/site-packages/pymodbus/server/asynchronous.py", line 351, in StopServer
+    reactor.stop()
+  File "/usr/local/lib/python3.7/dist-packages/twisted/internet/base.py", line 711, in stop
+    raise error.ReactorNotRunning("Can't stop reactor that isn't running.")
+twisted.internet.error.ReactorNotRunning: Can't stop reactor that isn't running.
+""2021-12-21 15:25:24" - |ERROR| - [tb_gateway_service.py] - tb_gateway_service - __close_connectors - 245 - Can't stop reactor that isn't running."
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 205, in __init__
+    sleep(0.2)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 242, in __close_connectors
+    self.available_connectors[current_connector].close()
+  File "/home/bnd/git/test/thingsboard_gateway/connectors/udp/udp_connector.py", line 136, in close
+    StopServer()
+  File "/home/bnd/.local/lib/python3.7/site-packages/pymodbus/server/asynchronous.py", line 351, in StopServer
+    reactor.stop()
+  File "/usr/local/lib/python3.7/dist-packages/twisted/internet/base.py", line 711, in stop
+    raise error.ReactorNotRunning("Can't stop reactor that isn't running.")
+twisted.internet.error.ReactorNotRunning: Can't stop reactor that isn't running.
+""2021-12-21 15:25:24" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __stop_gateway - 253 - The gateway has been stopped."
+""2021-12-21 15:27:11" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __init__ - 85 - Gateway starting..."
+""2021-12-21 15:27:11" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __init__ - 90 - ThingsBoard IoT gateway version: 2.9"
+""2021-12-21 15:27:12" - |INFO| - [tb_loader.py] - tb_loader - import_module - 68 - Import ModbusConnector from /home/bnd/git/test/thingsboard_gateway/connectors/modbus."
+""2021-12-21 15:27:12" - |INFO| - [tb_loader.py] - tb_loader - import_module - 68 - Import UDPConnector from /home/bnd/git/test/thingsboard_gateway/connectors/udp."
+""2021-12-21 15:27:12" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __init__ - 159 - Gateway started."
+""2021-12-21 15:28:15" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __stop_gateway - 250 - Stopping..."
+""2021-12-21 15:28:15" - |ERROR| - [tb_gateway_service.py] - tb_gateway_service - __close_connectors - 245 - Can't stop reactor that isn't running."
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 205, in __init__
+    sleep(0.2)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 242, in __close_connectors
+    self.available_connectors[current_connector].close()
+  File "/home/bnd/git/test/thingsboard_gateway/connectors/modbus/modbus_connector.py", line 241, in close
+    StopServer()
+  File "/home/bnd/.local/lib/python3.7/site-packages/pymodbus/server/asynchronous.py", line 351, in StopServer
+    reactor.stop()
+  File "/usr/local/lib/python3.7/dist-packages/twisted/internet/base.py", line 711, in stop
+    raise error.ReactorNotRunning("Can't stop reactor that isn't running.")
+twisted.internet.error.ReactorNotRunning: Can't stop reactor that isn't running.
+""2021-12-21 15:28:15" - |ERROR| - [tb_gateway_service.py] - tb_gateway_service - __close_connectors - 245 - Can't stop reactor that isn't running."
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 205, in __init__
+    sleep(0.2)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 242, in __close_connectors
+    self.available_connectors[current_connector].close()
+  File "/home/bnd/git/test/thingsboard_gateway/connectors/udp/udp_connector.py", line 136, in close
+    StopServer()
+  File "/home/bnd/.local/lib/python3.7/site-packages/pymodbus/server/asynchronous.py", line 351, in StopServer
+    reactor.stop()
+  File "/usr/local/lib/python3.7/dist-packages/twisted/internet/base.py", line 711, in stop
+    raise error.ReactorNotRunning("Can't stop reactor that isn't running.")
+twisted.internet.error.ReactorNotRunning: Can't stop reactor that isn't running.
+""2021-12-21 15:28:15" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __stop_gateway - 253 - The gateway has been stopped."
+""2021-12-21 15:28:35" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __init__ - 85 - Gateway starting..."
+""2021-12-21 15:28:35" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __init__ - 90 - ThingsBoard IoT gateway version: 2.9"
+""2021-12-21 15:28:35" - |INFO| - [tb_loader.py] - tb_loader - import_module - 68 - Import ModbusConnector from /home/bnd/git/test/thingsboard_gateway/connectors/modbus."
+""2021-12-21 15:28:35" - |INFO| - [tb_loader.py] - tb_loader - import_module - 68 - Import UDPConnector from /home/bnd/git/test/thingsboard_gateway/connectors/udp."
+""2021-12-21 15:28:35" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __init__ - 159 - Gateway started."
+""2021-12-21 15:30:19" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __stop_gateway - 250 - Stopping..."
+""2021-12-21 15:30:19" - |ERROR| - [tb_gateway_service.py] - tb_gateway_service - __close_connectors - 245 - Can't stop reactor that isn't running."
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 205, in __init__
+    sleep(0.2)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 242, in __close_connectors
+    self.available_connectors[current_connector].close()
+  File "/home/bnd/git/test/thingsboard_gateway/connectors/modbus/modbus_connector.py", line 241, in close
+    StopServer()
+  File "/home/bnd/.local/lib/python3.7/site-packages/pymodbus/server/asynchronous.py", line 351, in StopServer
+    reactor.stop()
+  File "/usr/local/lib/python3.7/dist-packages/twisted/internet/base.py", line 711, in stop
+    raise error.ReactorNotRunning("Can't stop reactor that isn't running.")
+twisted.internet.error.ReactorNotRunning: Can't stop reactor that isn't running.
+""2021-12-21 15:30:19" - |ERROR| - [tb_gateway_service.py] - tb_gateway_service - __close_connectors - 245 - Can't stop reactor that isn't running."
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 205, in __init__
+    sleep(0.2)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 242, in __close_connectors
+    self.available_connectors[current_connector].close()
+  File "/home/bnd/git/test/thingsboard_gateway/connectors/udp/udp_connector.py", line 136, in close
+    StopServer()
+  File "/home/bnd/.local/lib/python3.7/site-packages/pymodbus/server/asynchronous.py", line 351, in StopServer
+    reactor.stop()
+  File "/usr/local/lib/python3.7/dist-packages/twisted/internet/base.py", line 711, in stop
+    raise error.ReactorNotRunning("Can't stop reactor that isn't running.")
+twisted.internet.error.ReactorNotRunning: Can't stop reactor that isn't running.
+""2021-12-21 15:30:19" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __stop_gateway - 253 - The gateway has been stopped."
+""2021-12-21 15:31:11" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __init__ - 85 - Gateway starting..."
+""2021-12-21 15:31:11" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __init__ - 90 - ThingsBoard IoT gateway version: 2.9"
+""2021-12-21 15:31:12" - |INFO| - [tb_loader.py] - tb_loader - import_module - 68 - Import ModbusConnector from /home/bnd/git/test/thingsboard_gateway/connectors/modbus."
+""2021-12-21 15:31:12" - |INFO| - [tb_loader.py] - tb_loader - import_module - 68 - Import UDPConnector from /home/bnd/git/test/thingsboard_gateway/connectors/udp."
+""2021-12-21 15:31:12" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __init__ - 159 - Gateway started."
+""2021-12-21 15:33:03" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __stop_gateway - 250 - Stopping..."
+""2021-12-21 15:33:03" - |ERROR| - [tb_gateway_service.py] - tb_gateway_service - __close_connectors - 245 - Can't stop reactor that isn't running."
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 205, in __init__
+    sleep(0.2)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 242, in __close_connectors
+    self.available_connectors[current_connector].close()
+  File "/home/bnd/git/test/thingsboard_gateway/connectors/modbus/modbus_connector.py", line 241, in close
+    StopServer()
+  File "/home/bnd/.local/lib/python3.7/site-packages/pymodbus/server/asynchronous.py", line 351, in StopServer
+    reactor.stop()
+  File "/usr/local/lib/python3.7/dist-packages/twisted/internet/base.py", line 711, in stop
+    raise error.ReactorNotRunning("Can't stop reactor that isn't running.")
+twisted.internet.error.ReactorNotRunning: Can't stop reactor that isn't running.
+""2021-12-21 15:33:03" - |ERROR| - [tb_gateway_service.py] - tb_gateway_service - __close_connectors - 245 - Can't stop reactor that isn't running."
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 205, in __init__
+    sleep(0.2)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bnd/git/test/thingsboard_gateway/gateway/tb_gateway_service.py", line 242, in __close_connectors
+    self.available_connectors[current_connector].close()
+  File "/home/bnd/git/test/thingsboard_gateway/connectors/udp/udp_connector.py", line 136, in close
+    StopServer()
+  File "/home/bnd/.local/lib/python3.7/site-packages/pymodbus/server/asynchronous.py", line 351, in StopServer
+    reactor.stop()
+  File "/usr/local/lib/python3.7/dist-packages/twisted/internet/base.py", line 711, in stop
+    raise error.ReactorNotRunning("Can't stop reactor that isn't running.")
+twisted.internet.error.ReactorNotRunning: Can't stop reactor that isn't running.
+""2021-12-21 15:33:03" - |INFO| - [tb_gateway_service.py] - tb_gateway_service - __stop_gateway - 253 - The gateway has been stopped."
